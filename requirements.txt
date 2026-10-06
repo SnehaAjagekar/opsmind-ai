@@ -1,0 +1,26 @@
+# OpsMind AI — Business Document & Data Assistant
+# Core Dependencies
+
+# Streamlit for Web UI
+streamlit>=1.36.0
+
+# Official Google GenAI SDK (Modern SDK, replaces legacy google-generativeai)
+google-genai>=1.0.0
+
+# Environment variables management
+python-dotenv>=1.0.1
+
+# Document Processing (PDF)
+pypdf>=4.3.0
+
+# Embeddings & Vector Storage for RAG
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+
+# LangChain utilities (used selectively for text splitting & document loaders)
+langchain>=0.2.14
+langchain-community>=0.2.12
+langchain-text-splitters>=0.2.2
+
+# Data Analysis for CSV processing
+pandas>=2.2.0

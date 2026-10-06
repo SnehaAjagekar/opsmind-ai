@@ -1,0 +1,3 @@
+"""
+OpsMind AI - Core Package
+"""
